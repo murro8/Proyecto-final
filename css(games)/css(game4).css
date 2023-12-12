@@ -1,0 +1,7 @@
+.game4{
+  background-image: url(img1/fondo1.png) ;
+  margin: auto;
+  height: 600px;
+  width:800px;
+  border: 5px solid rgb(187, 13, 13);
+}

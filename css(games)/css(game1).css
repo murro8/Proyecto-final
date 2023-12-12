@@ -1,0 +1,72 @@
+
+.game1{
+  background-image: url(img1/fondo1.png) ;
+  margin: auto;
+  overflow: hidden;
+  margin-bottom: 50px;
+  height: 600px;
+  width:800px;
+  border: 5px solid rgb(187, 13, 13);
+}
+ 
+#block{
+  width: 40px;
+  height: 600px;
+  /*background: linear-gradient(90deg,red,blue,rgb(29, 28, 28));*/
+  background-color: rgb(219, 85, 85);
+  animation: block 2s infinite linear;
+  position: relative;
+  left: 800px;
+}
+
+@keyframes block{
+  0% {left: 800px;}
+  100% {left: -40px;}
+}
+
+/*.hueco{
+  position: absolute;
+  z-index: 2;
+  top: 493px;}
+
+#hole{
+  width:40px;
+  height: 150px;
+  background-color: white;
+  position: relative;
+  left: 800px;
+  top: -600px;
+  animation:block 2s infinite linear;
+}
+s
+#character{
+  width:34px;
+  height: 34px;
+  background-color: red;
+  position: relative;
+  top: 0px;
+  left: 50px;
+}
+
+.ocultar {
+  display: none;
+}
+
+.mostrar {
+  display: flex;
+}
+
+.bt_run{
+  width: 100px;
+  height: 50px;
+  font-size: medium;
+  font-weight: bold;
+  color: rgb(116, 55, 55);
+  background-color: rgb(79, 113, 181);
+  margin-top: 275px;
+  border: 3px solid rgb(144, 56, 56);
+  border-radius: 5px;
+}
+.bt_run:hover{
+  opacity: 0.9;
+}

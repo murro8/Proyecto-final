@@ -1,0 +1,33 @@
+.game2{
+    background-image: url(img1/fondo1.png) ;
+    margin: auto;
+    margin-bottom: 50px;
+    height: 600px;
+    width:800px;
+    border: 5px solid rgb(187, 13, 13);
+    display: flex;
+    align-items: center;
+  }
+
+.ocultar {
+    display: none;
+  }
+  
+  .mostrar {
+    display: flex;
+  }
+  
+  .bt_run{
+    width: 100px;
+    height: 50px;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(116, 55, 55);
+    background-color: rgb(79, 113, 181);
+    margin-top: 275px;
+    border: 3px solid rgb(144, 56, 56);
+    border-radius: 5px;
+  }
+  .bt_run:hover{
+    opacity: 0.9;
+  }

@@ -1,0 +1,61 @@
+.game3{
+  background: rgb(5,4,23);
+  background: linear-gradient(90deg, rgba(5,4,23,1) 0%, rgba(21,21,99,1) 35%, rgba(4,25,29,1) 100%); ;
+  margin: auto;
+  height: 600px;
+  width:800px;
+  border: 5px solid rgb(187, 13, 13);
+}
+
+.cuadro{
+  background-color: linear-gradient(90deg,  rgb(10, 9, 40) 0%, rgb(37, 37, 134) 35%, rgb(6, 33, 39) 100%); ;
+  padding: 0 10px 10px 10px;
+  border-radius: 4px;
+}
+
+table{
+  display: flex;
+  position: relative;
+  left: 30px;
+}
+
+.estadisticas{
+  background-color: rgb(32, 30, 30);
+  height: 80px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.estadisticas h3{
+  text-align: center;
+}
+
+.iniciar{
+  height: 35px;
+  width: 80px;
+  font-size: 1rem;
+  color: aliceblue;
+  background-color: rgb(26, 18, 141);
+  border: 1px solid white;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.carta{
+  position: relative;
+  margin: 7px;
+  left: 60px;
+  height: 110px;
+  background-image:"" ;
+  width: 80px;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  cursor:pointer;
+}
+
+.disabled{
+  cursor: not-allowed;
+  opacity: 50%;
+}
